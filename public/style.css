@@ -1,0 +1,56 @@
+*{
+    text-align: center;
+}
+header{
+    background-color: grey;
+    text-align: center;
+    padding: 1rem;
+    
+}
+h1{
+    color: orangered;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    padding: 1rem;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:beige;
+  justify-content: center;
+  gap: 1rem;
+}
+article{
+    background-color: white;
+    width: 80%;
+}
+.sticky{
+    position: sticky;
+    top:0;
+    background-color: #f9c;
+}
+.static{
+    position: static;
+    background-color: #9c6 ;
+}
+.relative-left{
+    position: relative;
+    left: 5em;
+    background-color: #fc3;
+}
+.relative-absolute{
+    position: relative;
+}
+.relative-absolute div{
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding: 1.2rem;
+    background-color: #f93 ;
+}
+.fixed{
+    position: fixed;
+    background-color: #69c;
+}
